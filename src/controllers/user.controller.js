@@ -39,12 +39,7 @@ const getUser = (req, res) => {
     const user = userService.getUser(id);
 
     if (user) {
-        return res.status(StatusCodes.OK).send(
-            {
-                status: STATUS.success,
-                user,
-            }
-        )
+        return res.status(StatusCodes.OK).send(user)
     }
 
     return res.status(StatusCodes.NOT_FOUND).send(
