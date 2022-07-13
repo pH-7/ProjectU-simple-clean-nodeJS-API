@@ -3,8 +3,8 @@ import {StatusCodes} from 'http-status-codes';
 import userService from '../services/user.service';
 
 const STATUS = {
-    success: 'OK',
-    failure: 'NO'
+    success: true,
+    failure: false
 };
 
 /**
