@@ -9,6 +9,14 @@
   "author": "Pierre-Henry Soria",
   "license": "MIT",
   "main": "node_modules/.bin/nodemon --exec babel-node src/server.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon --exec babel-node src/server.js",
+    "test": "ava"
+  }
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.14.4"
+  },
   "dependencies": {
     "compression": "^1.7.4",
     "cors": "^2.8.5",
@@ -26,9 +34,5 @@
     "@babel/preset-env": "^7.18.6",
     "ava": "^4.3.0",
     "nodemon": "^2.0.19"
-  },
-  "scripts": {
-    "start": "node_modules/.bin/nodemon --exec babel-node src/server.js",
-    "test": "ava"
   }
 }
