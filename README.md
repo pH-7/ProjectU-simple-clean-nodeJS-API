@@ -8,7 +8,7 @@ A simple clean REST API built with NodeJS, express with a n-tier architecture (o
 * Run `npm ci` to install all dependencies.
 * `npm start` to start your API on port `4000`.
   * You can change the port by editing `src/server.js` and changing `const port = 4000;` to another port number.
-* Download (Insomnia](https://insomnia.rest/download) or [Postman](https://www.postman.com/downloads/) to send easily HTTP requests to your API.
+* Download [Insomnia](https://insomnia.rest/download) or [Postman](https://www.postman.com/downloads/) to send easily HTTP requests to your API.
   * In this Udemy course, I will be using Insomnia, so Insomnia would be the recommended one.
 
 
