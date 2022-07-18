@@ -34,7 +34,7 @@ I'm [Pierre-Henry Soria](https://ph7.me). A **super passionate** Belgian **softw
 
 ## Context
 
-This is the final and completed project of my [Udemy Course](https://www.udemy.com/user/pierresoria/), **Learn how to build a Backend REST API with Node JS**.
+This is the source code of the final and completed project of my [Udemy Course](https://www.udemy.com/user/pierresoria/), **Learn how to build a Backend REST API with Node JS**.
 
 
 ## License
