@@ -41,4 +41,4 @@ This is the source code of the final and completed project of my [Udemy Course](
 
 ## License
 
-Under [MIT](https://opensource.org/licenses/MIT) 🎉
+This project is distributed under [MIT license](https://opensource.org/licenses/MIT). Enjoy 🎉
