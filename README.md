@@ -25,7 +25,7 @@ npx ava
 ```
 
 
-## The Author
+## Author
 
 I'm [Pierre-Henry Soria](https://ph7.me). A **super passionate** Belgian **software engineer** 🤗 And a true cheese 🧀 & chocolate 🍫 lover! 😋 You can reach me at *hi {[AT]} ph7 [{D0T}] me*
 
