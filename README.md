@@ -26,7 +26,7 @@ npx ava
 ## Running it with Podman
 
 1. Make sure Podman is correctly installed on your machine - https://podman.io/getting-started/installation
-2. From a command line opened , run `podman machine init` and then `podman machine start`
+2. From a command line opened , run `podman machine init`, and then `podman machine start`
 3. Then, in the project folder (still from your terminal), let's build the image with `podman build -t simple-api-image .`
 4. Once it has finished and the image successfully built, you should be able to see it by typing `podman images`
 5. Finally, let's run the image container by typing `podman run -p 4000:4000 simple-api-image` - Here, we use port `4000`, and map it to the local port `4000`.

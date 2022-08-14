@@ -7,5 +7,6 @@ COPY package.json /api/package.json
 RUN npm install
 COPY . /api
 
+# Although optional, always good practice to add EXPOSE here to document the port behavior
 EXPOSE 4000
 CMD [ "npm", "start" ]
