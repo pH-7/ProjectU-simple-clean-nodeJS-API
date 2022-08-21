@@ -1,6 +1,6 @@
 # ProjectU Simple clean NodeJS API
 
-A simple clean REST API built with NodeJS, express with a n-tier architecture (organized into layers). My Udemy course explaining how to build it is available at:
+A simple clean REST API built with NodeJS, express with a n-tier architecture (organized into layers). My Udemy course explaining how to build it is available at: https://www.udemy.com/course/build-backend-api-node-js-and-react-frontend/learn/lecture/33130370#overview
 
 ## Setting Up
 
