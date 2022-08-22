@@ -1,6 +1,6 @@
 import users from '../data/users.data';
 
-const get = (userId) => users.find((user) => user.id === userId);
+const get = (userId) => users.find((user) => user.id === parseInt(userId));
 
 const getAll = () => users;
 
