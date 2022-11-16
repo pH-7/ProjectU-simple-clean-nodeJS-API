@@ -22,12 +22,10 @@ const getAllUsers = (req, res) => {
         return res.status(StatusCodes.OK).send(users);
     }
 
-    return res.status(StatusCodes.NOT_FOUND).send(
-        {
-            status: STATUS.failure,
-            message: 'No users found.',
-        }
-    )
+    return res.status(StatusCodes.NOT_FOUND).send({
+        status: STATUS.failure,
+        message: 'No users found.',
+    });
 };
 
 /**
@@ -47,12 +45,10 @@ const getUser = (req, res) => {
         return res.status(StatusCodes.OK).send(user)
     }
 
-    return res.status(StatusCodes.NOT_FOUND).send(
-        {
-            status: STATUS.failure,
-            message: `User ${id} is not found.`,
-        }
-    )
+    return res.status(StatusCodes.NOT_FOUND).send({
+        status: STATUS.failure,
+        message: `User ${id} is not found.`,
+    });
 };
 
 /**
@@ -127,10 +123,9 @@ const removeUser = (req, res) => {
         });
     } else {
         return res.status(StatusCodes.NOT_FOUND).send({
-                status: STATUS.failure,
-                message: `User ${id} hasn't been found.`,
-            }
-        )
+            status: STATUS.failure,
+            message: `User ${id} hasn't been found.`,
+        });
     }
 };
 
