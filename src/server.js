@@ -12,14 +12,17 @@ const port = 4000;
 
 const limiter = rateLimit({
     windowMs: 60 * 1000, // 1 min
-    max: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
+    max: 100, // Limit each IP to 100 requests per `window` (here, per minute)
 })
 
 app.use(compression())
 
 // Apply the rate limiting middleware to API calls only
-app.use(limiter)
+app.use(limiter);
+
+// Parse incoming JSON requests and add it in `req.body`
 app.use(express.json());
+
 app.use(helmet());
 app.use(cors());
 
