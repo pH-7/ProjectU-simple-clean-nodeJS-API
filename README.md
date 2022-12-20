@@ -31,6 +31,15 @@ npx ava
 4. Once it has finished and the image successfully built, you should be able to see it by typing `podman images`
 5. Finally, let's run the image container by typing `podman run -p 4000:4000 simple-api-image` - Here, we use port `4000`, and map it to the local port `4000`.
 
+
+## 3rd-party libraries
+To make our job easier, this API uses the some great handy libraries such as:
+
+* [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit)
+* [pino](https://github.com/pinojs/pino)
+* [Yup schema validation](https://github.com/jquense/yup)
+
+
 ## Author
 
 I'm [Pierre-Henry Soria](https://ph7.me). A **super passionate** Belgian **software engineer** 🤗 And a true cheese 🧀 & chocolate 🍫 lover! 😋 You can reach me at _hi {[AT]} ph7 [{D0T}] me_
