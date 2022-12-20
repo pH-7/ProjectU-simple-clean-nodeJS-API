@@ -33,11 +33,11 @@ npx ava
 
 
 ## 3rd-party libraries
-To make our job easier, this API uses the some great handy libraries such as:
+To make our job easier, this API uses the some great handy libraries such as
 
-* [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit)
-* [pino](https://github.com/pinojs/pino)
+* [Pino logging library](https://github.com/pinojs/pino)
 * [Yup schema validation](https://github.com/jquense/yup)
+* [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit)
 
 
 ## Author
