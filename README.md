@@ -35,7 +35,7 @@ npx ava
 
 
 ## 3rd-party libraries
-To make our job easier, this API uses the some great handy libraries such as
+To make our job easier, this API uses the some great handy libraries such as...
 
 * [Pino logging library](https://github.com/pinojs/pino)
 * [Yup schema validation](https://github.com/jquense/yup)
@@ -55,7 +55,7 @@ A **super passionate** Belgian **software engineer** 🤗 And a true cheese 🧀
 
 ## Context
 
-This is the source code of the final and completed project of my [Udemy Course](https://www.udemy.com/user/pierresoria/), **Learn how to build a Backend REST API with Node JS**.
+This is the final source code and completed project of my [Udemy Course](https://www.udemy.com/user/pierresoria/), **Learn how to build a Backend REST API with Node JS**.
 
 
 ## License
