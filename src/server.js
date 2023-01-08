@@ -10,7 +10,7 @@ import compression from "compression";
 const app = express();
 const port = 4000;
 
-const limiter = rateLimit({
+const rateLimiter = rateLimit({
     windowMs: 60 * 1000, // 1 min
     max: 100, // Limit each IP to 100 requests per `window` (here, per minute)
 })
@@ -18,7 +18,8 @@ const limiter = rateLimit({
 app.use(compression())
 
 // Apply the rate limiting middleware to API calls only
-app.use(limiter);
+// Further info about rate limiting https://en.wikipedia.org/wiki/Rate_limiting
+app.use(rateLimiter);
 
 // Parse incoming JSON requests and add it in `req.body`
 app.use(express.json());
